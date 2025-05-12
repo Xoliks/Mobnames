@@ -18,12 +18,12 @@ function mobnames:logic/concatenate
 data modify entity @s CustomName set from storage mobnames:name out
 
 # clean up scoreboards and storages that were used
-#scoreboard players reset #age mobnames.temp
-#scoreboard players reset #list_size mobnames.temp
-#scoreboard players reset #list_index mobnames.temp
-#data remove storage mobnames:name list
+scoreboard players reset #age mobnames.temp
+scoreboard players reset #list_size mobnames.temp
+scoreboard players reset #list_index mobnames.temp
+data remove storage mobnames:name list
 data remove storage mobnames:name in
-#data remove storage mobnames:name out
+data remove storage mobnames:name out
 
 # add named tag to mob, so it doesnt get renamed
 tag @s add mobnames.named

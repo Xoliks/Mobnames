@@ -1,5 +1,6 @@
 # Mobnames Datapack
 Credit: Xoliks
+
 This pack was created for a commission. It is intended to be used to give specific mobs randomly chosen names. This pack is highly customizable; details on how to customize it are below
 
 **Defining named mobs**
@@ -26,9 +27,9 @@ execute if score @s mobnames.biome matches 10 run data modify storage mobnames:n
 
 # fallback names can be defined based on dimension, these lists are only used if there is no defined namelist for the biome group
 # the scores represent the dimension the mob is from. -1 is the nether, 0 is the overworld, and 1 is the end
-execute unless data storage mobnames:name list if score @s mobnames.biome matches -1 run data modify storage mobnames:name list set value [[]]
-execute unless data storage mobnames:name list if score @s mobnames.biome matches 0 run data modify storage mobnames:name list set value [[]]
-execute unless data storage mobnames:name list if score @s mobnames.biome matches 1 run data modify storage mobnames:name list set value [[]]
+execute unless data storage mobnames:name list if score @s mobnames.dimension matches -1 run data modify storage mobnames:name list set value [[]]
+execute unless data storage mobnames:name list if score @s mobnames.dimension matches 0 run data modify storage mobnames:name list set value [[]]
+execute unless data storage mobnames:name list if score @s mobnames.dimension matches 1 run data modify storage mobnames:name list set value [[]]
 ```
 5. replace the `<mob_id>` in line 2, with the corresponding mob id. Example: `minecraft:villager`
 
