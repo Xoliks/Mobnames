@@ -1,0 +1,82 @@
+# assign the biome and dimensions score based on what biome the mob is in
+# sadly the best way to do this is by hardcoding it
+
+execute if dimension minecraft:the_nether run scoreboard players set @s mobnames.dimension -1
+execute if dimension minecraft:overworld run scoreboard players set @s mobnames.dimension 0
+execute if dimension minecraft:the_end run scoreboard players set @s mobnames.dimension 1
+
+execute if biome ~ ~ ~ #mobnames:group_1 run scoreboard players set @s mobnames.biome 1
+execute if biome ~ ~ ~ #mobnames:group_2 run scoreboard players set @s mobnames.biome 2
+execute if biome ~ ~ ~ #mobnames:group_3 run scoreboard players set @s mobnames.biome 3
+execute if biome ~ ~ ~ #mobnames:group_4 run scoreboard players set @s mobnames.biome 4
+execute if biome ~ ~ ~ #mobnames:group_5 run scoreboard players set @s mobnames.biome 5
+execute if biome ~ ~ ~ #mobnames:group_6 run scoreboard players set @s mobnames.biome 6
+execute if biome ~ ~ ~ #mobnames:group_7 run scoreboard players set @s mobnames.biome 7
+execute if biome ~ ~ ~ #mobnames:group_8 run scoreboard players set @s mobnames.biome 8
+execute if biome ~ ~ ~ #mobnames:group_9 run scoreboard players set @s mobnames.biome 9
+execute if biome ~ ~ ~ #mobnames:group_10 run scoreboard players set @s mobnames.biome 10
+execute if biome ~ ~ ~ #mobnames:group_11 run scoreboard players set @s mobnames.biome 11
+execute if biome ~ ~ ~ #mobnames:group_12 run scoreboard players set @s mobnames.biome 12
+execute if biome ~ ~ ~ #mobnames:group_13 run scoreboard players set @s mobnames.biome 13
+execute if biome ~ ~ ~ #mobnames:group_14 run scoreboard players set @s mobnames.biome 14
+execute if biome ~ ~ ~ #mobnames:group_15 run scoreboard players set @s mobnames.biome 15
+execute if biome ~ ~ ~ #mobnames:group_16 run scoreboard players set @s mobnames.biome 16
+execute if biome ~ ~ ~ #mobnames:group_17 run scoreboard players set @s mobnames.biome 17
+execute if biome ~ ~ ~ #mobnames:group_18 run scoreboard players set @s mobnames.biome 18
+execute if biome ~ ~ ~ #mobnames:group_19 run scoreboard players set @s mobnames.biome 19
+execute if biome ~ ~ ~ #mobnames:group_20 run scoreboard players set @s mobnames.biome 20
+execute if biome ~ ~ ~ #mobnames:group_21 run scoreboard players set @s mobnames.biome 21
+execute if biome ~ ~ ~ #mobnames:group_22 run scoreboard players set @s mobnames.biome 22
+execute if biome ~ ~ ~ #mobnames:group_23 run scoreboard players set @s mobnames.biome 23
+execute if biome ~ ~ ~ #mobnames:group_24 run scoreboard players set @s mobnames.biome 24
+execute if biome ~ ~ ~ #mobnames:group_25 run scoreboard players set @s mobnames.biome 25
+execute if biome ~ ~ ~ #mobnames:group_26 run scoreboard players set @s mobnames.biome 26
+execute if biome ~ ~ ~ #mobnames:group_27 run scoreboard players set @s mobnames.biome 27
+execute if biome ~ ~ ~ #mobnames:group_28 run scoreboard players set @s mobnames.biome 28
+execute if biome ~ ~ ~ #mobnames:group_29 run scoreboard players set @s mobnames.biome 29
+execute if biome ~ ~ ~ #mobnames:group_30 run scoreboard players set @s mobnames.biome 30
+execute if biome ~ ~ ~ #mobnames:group_31 run scoreboard players set @s mobnames.biome 31
+execute if biome ~ ~ ~ #mobnames:group_32 run scoreboard players set @s mobnames.biome 32
+execute if biome ~ ~ ~ #mobnames:group_33 run scoreboard players set @s mobnames.biome 33
+execute if biome ~ ~ ~ #mobnames:group_34 run scoreboard players set @s mobnames.biome 34
+execute if biome ~ ~ ~ #mobnames:group_35 run scoreboard players set @s mobnames.biome 35
+execute if biome ~ ~ ~ #mobnames:group_36 run scoreboard players set @s mobnames.biome 36
+execute if biome ~ ~ ~ #mobnames:group_37 run scoreboard players set @s mobnames.biome 37
+execute if biome ~ ~ ~ #mobnames:group_38 run scoreboard players set @s mobnames.biome 38
+execute if biome ~ ~ ~ #mobnames:group_39 run scoreboard players set @s mobnames.biome 39
+execute if biome ~ ~ ~ #mobnames:group_40 run scoreboard players set @s mobnames.biome 40
+execute if biome ~ ~ ~ #mobnames:group_41 run scoreboard players set @s mobnames.biome 41
+execute if biome ~ ~ ~ #mobnames:group_42 run scoreboard players set @s mobnames.biome 42
+execute if biome ~ ~ ~ #mobnames:group_43 run scoreboard players set @s mobnames.biome 43
+execute if biome ~ ~ ~ #mobnames:group_44 run scoreboard players set @s mobnames.biome 44
+execute if biome ~ ~ ~ #mobnames:group_45 run scoreboard players set @s mobnames.biome 45
+execute if biome ~ ~ ~ #mobnames:group_46 run scoreboard players set @s mobnames.biome 46
+execute if biome ~ ~ ~ #mobnames:group_47 run scoreboard players set @s mobnames.biome 47
+execute if biome ~ ~ ~ #mobnames:group_48 run scoreboard players set @s mobnames.biome 48
+execute if biome ~ ~ ~ #mobnames:group_49 run scoreboard players set @s mobnames.biome 49
+execute if biome ~ ~ ~ #mobnames:group_50 run scoreboard players set @s mobnames.biome 50
+execute if biome ~ ~ ~ #mobnames:group_51 run scoreboard players set @s mobnames.biome 51
+execute if biome ~ ~ ~ #mobnames:group_52 run scoreboard players set @s mobnames.biome 52
+execute if biome ~ ~ ~ #mobnames:group_53 run scoreboard players set @s mobnames.biome 53
+execute if biome ~ ~ ~ #mobnames:group_54 run scoreboard players set @s mobnames.biome 54
+execute if biome ~ ~ ~ #mobnames:group_55 run scoreboard players set @s mobnames.biome 55
+execute if biome ~ ~ ~ #mobnames:group_56 run scoreboard players set @s mobnames.biome 56
+execute if biome ~ ~ ~ #mobnames:group_57 run scoreboard players set @s mobnames.biome 57
+execute if biome ~ ~ ~ #mobnames:group_58 run scoreboard players set @s mobnames.biome 58
+execute if biome ~ ~ ~ #mobnames:group_59 run scoreboard players set @s mobnames.biome 59
+execute if biome ~ ~ ~ #mobnames:group_60 run scoreboard players set @s mobnames.biome 60
+execute if biome ~ ~ ~ #mobnames:group_61 run scoreboard players set @s mobnames.biome 61
+execute if biome ~ ~ ~ #mobnames:group_62 run scoreboard players set @s mobnames.biome 62
+execute if biome ~ ~ ~ #mobnames:group_63 run scoreboard players set @s mobnames.biome 63
+execute if biome ~ ~ ~ #mobnames:group_64 run scoreboard players set @s mobnames.biome 64
+execute if biome ~ ~ ~ #mobnames:group_65 run scoreboard players set @s mobnames.biome 65
+execute if biome ~ ~ ~ #mobnames:group_66 run scoreboard players set @s mobnames.biome 66
+execute if biome ~ ~ ~ #mobnames:group_67 run scoreboard players set @s mobnames.biome 67
+execute if biome ~ ~ ~ #mobnames:group_68 run scoreboard players set @s mobnames.biome 68
+execute if biome ~ ~ ~ #mobnames:group_69 run scoreboard players set @s mobnames.biome 69
+execute if biome ~ ~ ~ #mobnames:group_70 run scoreboard players set @s mobnames.biome 70
+execute if biome ~ ~ ~ #mobnames:group_71 run scoreboard players set @s mobnames.biome 71
+execute if biome ~ ~ ~ #mobnames:group_72 run scoreboard players set @s mobnames.biome 72
+execute if biome ~ ~ ~ #mobnames:group_73 run scoreboard players set @s mobnames.biome 73
+execute if biome ~ ~ ~ #mobnames:group_74 run scoreboard players set @s mobnames.biome 74
+execute if biome ~ ~ ~ #mobnames:group_75 run scoreboard players set @s mobnames.biome 75

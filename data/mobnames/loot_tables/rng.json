@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 0,
+        "max": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#list_size"
+          },
+          "score": "mobnames.temp",
+          "scale": 1
+        }
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
