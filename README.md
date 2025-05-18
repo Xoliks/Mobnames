@@ -9,7 +9,7 @@ This is the most difficult change to make, because it requires editing multiple 
 2. create a new .mcfunction file in `Mobnames\data\mobnames\functions\name_lists` the filename should reflect the mob's type. Example: `villager.mcfunction`
 3. add the filename of the newly created file into `Mobnames\data\mobnames\tags\functions\named_mobs.json`. Example: `"mobnames:name_lists/villager"`
 4. copy & paste the following into the newly created .mcfunction file:
-```
+```mcfunction
 # end this function if the mob is not the correct type
 execute unless entity @s[type=<mob_id>] run return 0
 
